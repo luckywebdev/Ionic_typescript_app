@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "906972187521",
+    "firebase_url": "https://wootoop-fcfb4.firebaseio.com",
+    "project_id": "wootoop-fcfb4",
+    "storage_bucket": "wootoop-fcfb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906972187521:android:15ec97acbaf2b4b1237680",
+        "android_client_info": {
+          "package_name": "com.wootoop.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906972187521-1oq0lp1rkl3ajon0of88f49h1r6rhrtj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wootoop.app",
+            "certificate_hash": "072c9e3ce9a13bc9ccf7660ac3b08dde28e1b873"
+          }
+        },
+        {
+          "client_id": "906972187521-rr3j56bmr5pr4tehbtku7hraac6hp78c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcbQZ8nxXw_QUVh8iKNLsdaG_hTJrR1vc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906972187521-rr3j56bmr5pr4tehbtku7hraac6hp78c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "906972187521-0knbpoe0mld2m9ohfm77q7v8sbdvuifj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.wootoop.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

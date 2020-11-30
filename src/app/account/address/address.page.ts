@@ -1,0 +1,45 @@
+import { Component, OnInit } from '@angular/core';
+import { LoadingController, NavController, Platform } from '@ionic/angular';
+import { ActivatedRoute, Router } from '@angular/router';
+import { ApiService } from '../../api.service';
+import { Settings } from './../../data/settings';
+
+@Component({
+    selector: 'app-address',
+    templateUrl: './address.page.html',
+    styleUrls: ['./address.page.scss'],
+})
+export class AddressPage implements OnInit {
+    constructor(public platform: Platform, public api: ApiService, public settings: Settings, public router: Router, public loadingController: LoadingController, public navCtrl: NavController, public route: ActivatedRoute) {}
+    ngOnInit() {
+        this.getCustomer();
+    }
+    async getCustomer() {
+        const loading = await this.loadingController.create({
+            message: 'Loading...',
+            translucent: true,
+            cssClass: 'custom-class custom-loading'
+        });
+        await loading.present();
+        if (this.platform.is('hybrid'))
+            await this.api.getItemIonic('customers/' + this.settings.customer.id).then((res) => {
+                this.settings.customer = res;
+                loading.dismiss();
+            }, err => {
+                console.log(err);
+                loading.dismiss();
+            });
+        else {
+            await this.api.getItem('customers/' + this.settings.customer.id).subscribe(res => {
+                this.settings.customer = res;
+                loading.dismiss();
+            }, err => {
+                console.log(err);
+                loading.dismiss();
+            });
+        }
+    }
+    editAddress() {
+        this.navCtrl.navigateForward('/tabs/account/address/edit-address');
+    }
+}

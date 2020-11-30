@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>906972187521-0knbpoe0mld2m9ohfm77q7v8sbdvuifj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.906972187521-0knbpoe0mld2m9ohfm77q7v8sbdvuifj</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>906972187521-1oq0lp1rkl3ajon0of88f49h1r6rhrtj.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD4miyCs7V8yCTK2d3C6jKpiFmYGgvktgM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>906972187521</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.wootoop.app</string>
+	<key>PROJECT_ID</key>
+	<string>wootoop-fcfb4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>wootoop-fcfb4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<true/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:906972187521:ios:073c54bea33d0258237680</string>
+	<key>DATABASE_URL</key>
+	<string>https://wootoop-fcfb4.firebaseio.com</string>
+</dict>
+</plist>
